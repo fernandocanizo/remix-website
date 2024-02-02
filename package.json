@@ -15,7 +15,7 @@
     "start": "cross-env NODE_ENV=production node server.mjs",
     "preview": "cross-env NODE_ENV=production dotenv node server.mjs",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:fix": "pnpm lint -- --fix",
     "test": "vitest",
     "typecheck": "tsc -b"
   },
